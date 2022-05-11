@@ -6,7 +6,7 @@ export default class Board extends Component {
         return <Square value={this.props.squares[i]}
         onClick={()=>this.props.onClick(i)}
         />
-    }
+    }//
     render() {
         return (
             <div>

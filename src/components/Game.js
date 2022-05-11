@@ -3,7 +3,7 @@ import Board from './Board';
 
 export default class Game extends Component {
     constructor(props) {
-        super(props);
+        super(props);//
         this.state = {
             xIsNext: true,
             stepNumber: 0,
